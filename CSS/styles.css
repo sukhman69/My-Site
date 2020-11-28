@@ -1,0 +1,191 @@
+body{
+    color: #40514E;    /*new*/
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /*
+    font-family: 'Cedarville Cursive', cursive;
+    */
+    color: #66BFBF;
+    line-height: 2; /* distance between on top of the h1 box and bootom of the h1 box*/
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    padding: 10px;             /*new*/
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.topContainer{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;   /*new*/
+}
+/****fi someone want's to contact hrough emnail********/
+.btn{
+    background: #C800FF;
+    background-image: -webkit-linear-gradient(top, #C800FF, #3246AF);
+    background-image: -moz-linear-gradient(top, #C800FF, #3246AF);
+    background-image: -ms-linear-gradient(top, #C800FF, #3246AF);
+    background-image: -o-linear-gradient(top, #C800FF, #3246AF);
+    background-image: -webkit-gradient(to bottom, #C800FF, #3246AF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    -webkit-box-shadow: 1px 1px 25px 0 #25A59F;
+    -moz-box-shadow: 1px 1px 25px 0 #25A59F;
+    box-shadow: 1px 1px 25px 0 #25A59F;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 5%;
+ }
+ /****wenn ich auf die taste auf gehen wird diese methode durchgefürht******/
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #3246AF;
+    background-image: -webkit-linear-gradient(top, #3246AF, #C800FF);
+    background-image: -moz-linear-gradient(top, #3246AF, #C800FF);
+    background-image: -ms-linear-gradient(top, #3246AF, #C800FF);
+    background-image: -o-linear-gradient(top, #3246AF, #C800FF);
+    background-image: -webkit-gradient(to bottom, #3246AF, #C800FF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ /****wenn ich auf die taste auf gehen wird diese methode durchgefürht******/
+
+/****fi someone want's to contact hrough emnail********/
+
+/*********profile, coding and gym pictures*********/
+.profile-img{
+    height: 200px;
+    border-radius: 25%;
+}
+.coding-img{
+    width: 25%;
+    height: 100%;
+    border-radius: 0;
+    float: left;
+    margin-right: 30px;
+}
+.gym-img{
+    width: 25%;
+    height: 150px;
+    border-radius: 50px;
+    float: right;
+    margin-left: 30px;
+}
+/*********profile, coding and gym pictures*********/
+/******Word "programmer"******************/
+.pro{
+    text-decoration: underline;
+}
+.programmer{
+    font-weight: normal;
+}
+.intro{           /*new*/
+    width: 30%;/*make the width of the paraghraph shoter for more lines*/
+    margin: auto; /*sets the maing auto on all 4 sides*/
+}
+/********word "programmer"****************/
+p{
+    line-height: 2;  /*adds line height on all paragraphs*/
+}
+/**********clouds********************/
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+/**********clouds************************/
+
+.skill-row{
+    width: 50%;
+    position: relative;
+    margin: 100px auto 100px; /*means same margin on all 4 sides of the box, so that can be centered*/
+    text-align: left;
+    /*line-height: 2;*/
+}
+
+/* CLEAR: all the text will  be moved down to the floating element*/
+.code-skill-description{
+    text-decoration-color: #40514E;
+}
+.gym-skill-description{
+    
+}
+/****changes the property of the horizontal line*************/
+hr{
+    margin: 5% auto 5%;
+    border-style: none ; /* any border will be displayed*/
+    border-top-style: dotted; /*only top border of the box will displayed*/
+    border-color: grey;  /* specified color*/
+    border-width: 6px;  /* specified color*/
+    height: 0;
+    width: 4%;
+    /**OR easy way to programm**********************
+    border: dotted #EAF6F6 6px;  style to dotted & colour change &  height of the line
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    */
+}
+/****changes the property of the horizontal line*************/
+
+/*in bottem container their are: socials links and copyright Licence****/
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+/*in bottem container their are: socials links and copyright Licence****/
+
+/****links to our social's********/
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: unset;         /*removes underline*/
+}
+a:hover{
+    color: #EAF6F6;
+}
+/****links to our social's********/
+
+/**********at the end of the every website there is a copyright Licence so that noone else can use out website without our permission******************/
+.copyright-licence{
+    color: #E4F6F6;
+    font-size: 0.75rem;
+    padding: 20px 0; /*pading top and bottom & left and right*/
+}
+/****************************************/
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
